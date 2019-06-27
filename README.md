@@ -186,7 +186,7 @@ sudo pip install --upgrade picamera[array]
 git clone --single-branch https://github.com/ageitgey/face_recognition.git
 ```
 
-快速測試
+測試範例程式
 ```
 cd ./face_recognition/examples
 python facerec_on_raspberry_pi.py
