@@ -83,8 +83,7 @@ mkvirtualenv cv -p python3
 ```
 workon cv
 ```
-進入後如下圖所示
-https://cdn.teknotut.com/wp-content/uploads/2019/05/virtual-environment-cv-1024x93.png
+
 
 安裝NumPy(在虛擬環境中)
 ```
