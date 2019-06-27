@@ -13,15 +13,19 @@ sudo raspi-config
 
 安裝相關軟件
 ```
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install build-essential cmake unzip pkg-config -y
-sudo apt-get install libjpeg-dev libpng-dev libtiff-dev -y
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
-sudo apt-get install libxvidcore-dev libx264-dev -y
-sudo apt-get install libgtk-3-dev -y
-sudo apt-get install libcanberra-gtk* -y
-sudo apt-get install libatlas-base-dev gfortran -y
-sudo apt-get install python3-dev -y
+sudo apt-get update && sudo apt-get upgrade -y \
+sudo apt-get install git -y \
+    wget -y \
+    curl -y \
+    zip -y \
+    build-essential cmake unzip pkg-config -y \
+    libjpeg-dev libpng-dev libtiff-dev -y \
+    libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y \
+    libxvidcore-dev libx264-dev -y \
+    libgtk-3-dev -y \
+    libcanberra-gtk* -y \
+    libatlas-base-dev gfortran -y \
+    python3-dev -y
 ```
 
 下載OpenCV
@@ -146,4 +150,39 @@ python
 >>> cv2.__version__
 >>> exit()
 ```
-如回傳安裝版本編號如4.1.0代表安裝成功
+如回傳安裝版本編號如4.1.0代表OpenCV安裝成功
+
+
+安裝face_recognition及相關套件在虛擬環境(dlib約需要2小時)
+```
+workon cv
+pip install dlib
+pip install face_recognition
+pip install imutils
+```
+
+如果安裝face_recognition錯誤，請用以下方式手動安裝
+```
+wget https://www.piwheels.org/simple/face-recognition-models/face_recognition_models-0.3.0-py2.py3-none-any.whl
+pip install face_recognition_models-0.3.0-py2.py3-none-any.whl
+pip install --upgrade face_recognition
+```
+
+如果使用樹梅派相機配件請開啟相機並在虛擬環境(cv)安裝以下套件
+```
+sudo raspi-config
+```
+Interfacing Option -> P1 Camera
+
+```
+sudo apt-get install python3-picamera
+sudo pip3 install --upgrade picamera[array]
+```
+
+安裝
+
+下載
+
+
+ 
+
