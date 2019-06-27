@@ -195,6 +195,7 @@ python facerec_on_raspberry_pi.py
 
  
 參考網站
+
 face_recognition套件(內容詳細):
 https://github.com/ageitgey/face_recognition
 
