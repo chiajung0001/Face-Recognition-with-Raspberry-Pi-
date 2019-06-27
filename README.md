@@ -1,5 +1,5 @@
 # Face Recognition with Raspberry Pi 3B+
-在樹梅派3 B+ 安裝與應用face_regnition
+在樹梅派3 B+ 安裝與應用face_recognition
 
 using face_recognition with raspberry pi 3 B+
 
