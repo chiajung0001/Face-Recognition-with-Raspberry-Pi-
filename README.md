@@ -1,6 +1,9 @@
 # Face-Recognition-with-Raspberry-Pi
-using face_recognition with raspberry pi 3 B+
 在樹梅派3 B+ 安裝與應用face_regnition
+
+using face_recognition with raspberry pi 3 B+
+
+
 
 Expand Filesystem
 ```
