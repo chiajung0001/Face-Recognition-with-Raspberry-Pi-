@@ -1,4 +1,4 @@
-# Face-Recognition-with-Raspberry-Pi 3B+
+# Face Recognition with Raspberry Pi 3B+
 在樹梅派3 B+ 安裝與應用face_regnition
 
 using face_recognition with raspberry pi 3 B+
@@ -159,6 +159,7 @@ workon cv
 pip install dlib
 pip install face_recognition
 pip install imutils
+pip install opencv-python
 ```
 
 如果安裝face_recognition錯誤，請用以下方式手動安裝
@@ -176,13 +177,27 @@ Interfacing Option -> P1 Camera
 
 ```
 sudo apt-get install python3-picamera
-sudo pip3 install --upgrade picamera[array]
+sudo pip install --upgrade picamera[array]
 ```
 
-安裝
 
-下載
+下載人臉辨識範例
+```
+git clone --single-branch https://github.com/ageitgey/face_recognition.git
+```
+
+快速測試
+```
+cd ./face_recognition/examples
+python facerec_on_raspberry_pi.py
+```
 
 
  
+參考網站
+face_recognition套件(內容詳細):
+https://github.com/ageitgey/face_recognition
 
+樹梅派安裝指南:
+https://www.teknotut.com/en/install-opencv-4-on-the-raspberry-pi/
+https://www.teknotut.com/en/facial-recognition-with-raspberry-pi-and-opencv/
