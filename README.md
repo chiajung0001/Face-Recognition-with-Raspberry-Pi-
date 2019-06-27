@@ -13,7 +13,7 @@ sudo raspi-config
 
 安裝相關軟件
 ```
-sudo apt-get update && sudo apt-get upgrade -y \
+sudo apt-get update && sudo apt-get upgrade -y 
 sudo apt-get install git -y \
     wget -y \
     curl -y \
