@@ -1,7 +1,7 @@
 # Face Recognition with Raspberry Pi 3B+
 在樹梅派3B+ 安裝與應用face_recognition
 
-using face_recognition with raspberry pi 3 B+
+using face_recognition with raspberry pi 3B+
 
 
 
@@ -9,7 +9,7 @@ Expand Filesystem
 ```
 sudo raspi-config
 ```
-選擇Advanced Option -> A1 Expanded Filesystem > R
+選擇Advanced Option -> A1 Expanded Filesystem > Reboot
 
 安裝相關軟件
 ```
