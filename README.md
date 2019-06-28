@@ -200,5 +200,7 @@ face_recognition套件(內容詳細):
 https://github.com/ageitgey/face_recognition
 
 樹梅派安裝指南:
+
 https://www.teknotut.com/en/install-opencv-4-on-the-raspberry-pi/
+
 https://www.teknotut.com/en/facial-recognition-with-raspberry-pi-and-opencv/
