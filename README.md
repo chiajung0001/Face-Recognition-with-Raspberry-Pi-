@@ -139,7 +139,7 @@ sudo ldconfig
 
 連接OpenCV到虛擬環境
 ```
-ln -s  /usr/local/lib/python3.5/site-packages/cv2/python-3.5/cv2.cpython-35m-arm-linux-gnueabihf.so ~/.virtualenvs/cv/lib/python3.5/site-packages/cv2.so
+sudo ln -s  /usr/local/lib/python3.5/site-packages/cv2/python-3.5/cv2.cpython-35m-arm-linux-gnueabihf.so ~/.virtualenvs/cv/lib/python3.5/site-packages/cv2.so
 ```
 
 測試OpenCV
