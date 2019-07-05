@@ -3,6 +3,8 @@
 
 using face_recognition with raspberry pi 3B+
 
+![image](https://github.com/chiajung0001/Face_Recognition_with_Raspberry_Pi_3B/blob/master/face_recognition%20with%20raspberry%20pi%203B%2B.png)
+
 
 
 Expand Filesystem
