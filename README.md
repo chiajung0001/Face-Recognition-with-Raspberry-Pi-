@@ -218,11 +218,11 @@ https://www.teknotut.com/en/facial-recognition-with-raspberry-pi-and-opencv/
 
 
 
-Kafka
+# Kafka
 
-https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi
+安裝confluent-kafka套件
+
 ```
-pip install RPi.GPIO
 git clone https://github.com/edenhill/librdkafka.git 
 cd librdkafka/ 
 ./configure 
@@ -231,3 +231,11 @@ sudo make install
 sudo ldconfig
 pip install confluent-kafka
 ```
+
+
+
+壓力偵測補充:https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi
+```
+pip install RPi.GPIO
+```
+
