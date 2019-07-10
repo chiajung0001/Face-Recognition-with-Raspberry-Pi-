@@ -3,6 +3,8 @@ import picamera
 import numpy as np
 import os
 import time
+import json
+from confluent_kafka import Producer
 
 #初始化
 camera = picamera.PiCamera()
@@ -189,11 +191,15 @@ while True:
 
     # 循環檢查框架中的人臉是否為已知的會員人臉
     for face_encoding in face_encodings:
-
+        props={'bootstrap.servers':'10.120.28.3:6667'}
+        p = Producer(props)
         match = face_recognition.compare_faces(known_face_encoding, face_encoding, tolerance=0.45)
         matches=np.where(match)[0] #檢查哪個圖片是符合的
         if len(matches)>0:
           name = str(known_person[matches[0]])
+          member_detail = {"memberID" : name} 
+          member_detail_json = json.dumps(member_detail).encode("utf-8") 
+          p.produce('facein', value=member_detail_json)
         else:
           name = "Unknown"
 
