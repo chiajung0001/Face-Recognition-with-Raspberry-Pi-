@@ -228,5 +228,6 @@ cd librdkafka/
 ./configure 
 make 
 sudo make install
+sudo ldconfig
 pip install confluent-kafka
 ```
