@@ -1,5 +1,5 @@
 # Face Recognition with Raspberry Pi 3B+
-在樹梅派3B+ 安裝與應用face_recognition
+在樹梅派3B+ 安裝與應用face_recognition，並將辨識結果上傳Kafka
 
 using face_recognition with raspberry pi 3B+
 
