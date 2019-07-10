@@ -96,6 +96,11 @@ workon cv
 pip install numpy
 ```
 
+離開虛擬環境
+```
+deactive
+```
+
 配置OpenCV CMake
 ```
 cd ~/opencv
