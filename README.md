@@ -223,4 +223,10 @@ Kafka
 https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi
 ```
 pip install RPi.GPIO
+git clone https://github.com/edenhill/librdkafka.git 
+cd librdkafka/ 
+./configure 
+make 
+sudo make install
+pip install confluent-kafka
 ```
