@@ -211,3 +211,15 @@ https://github.com/ageitgey/face_recognition
 https://www.teknotut.com/en/install-opencv-4-on-the-raspberry-pi/
 
 https://www.teknotut.com/en/facial-recognition-with-raspberry-pi-and-opencv/
+
+
+
+
+
+
+
+Kafka
+
+https://raspberrypi.stackexchange.com/questions/60774/importerror-no-module-named-rpi
+
+pip install RPi.GPIO
